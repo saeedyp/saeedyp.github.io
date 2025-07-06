@@ -3330,11 +3330,11 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: transparent !important;
+  background-color: rgba(0,0,0,0.5) !important;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #FFFFFF;
-  padding-top: 20px;
+backdrop-filter: saturate(180%) blur(20px);
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item) {
